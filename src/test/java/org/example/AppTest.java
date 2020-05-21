@@ -17,11 +17,11 @@ public class AppTest
     {
         try {
             Log log1 = new Log2File();
-            log1.Write();
+            log1.Write("Write to File");
             Log log2 = new Log2Screen();
-            log2.Write();
+            log2.Write("Write to Screen");
             Log log3 = new Log2Email();
-            log3.Write();
+            log3.Write("Write to Email");
             assertTrue( true );
         } catch (Exception ex){
             ex.getMessage();
