@@ -1,4 +1,5 @@
 package org.example;
+
 import org.apache.log4j.spi.LoggingEvent;
 import org.apache.log4j.spi.TriggeringEventEvaluator;
 
